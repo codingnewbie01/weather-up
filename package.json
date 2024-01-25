@@ -1,5 +1,5 @@
 {
-  "name": "know_weather",
+  "name": "weather-up",
   "version": "0.1.0",
   "private": true,
   "dependencies": {

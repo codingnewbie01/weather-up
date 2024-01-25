@@ -1,0 +1,45 @@
+.btn{
+    background: none;
+    border: none;
+    text-transform: uppercase;
+    font-weight: 600;
+    border-radius: 3px;
+    padding: 5px;
+    color:white;
+    background-color: rgb(44, 44, 244);
+    height: fit-content;
+    width: fit-content;
+}
+#tab{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    /* Border: 2px solid red; */
+    color:white;
+    background-color: rgba(130, 130, 245, 0.991);
+    /* height: fit-content; */
+    width: 10rem;
+    height: 7rem;
+    border-radius: 10px;
+    color:rgb(228, 222, 222);
+    font-size: 13px;
+}
+@media (max-width:500px){
+    #tab{
+        font-size: 10px;
+        width: 6rem;
+        height: 4rem;
+    }
+
+    #tab span:nth-child(2){
+        font-size: 14px;
+        color: red;
+    }
+}
+#tab span{
+    margin-left: 18px;
+}
+#tab span:nth-child(2){
+    color:white;
+    font-size: 18px;
+}
